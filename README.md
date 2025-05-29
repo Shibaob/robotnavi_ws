@@ -8,11 +8,11 @@
 `ros2 launch sol solution_launch.py use_rviz:=false`
  
 ### Launch 2 robots, disable RViz, run for 20 min (1200 s sim-time), using map seed 36
-ros2 launch sol solution_launch.py \
+'ros2 launch sol solution_launch.py \
   num_robots:=2 \
   use_rviz:=false \
   random_seed:=36 \
-  experiment_duration:=1200.0
+  experiment_duration:=1200.0'
 
 Spawns two robots so you can observe multi-robot behaviour.
 Skips RViz to save resources when you only need console output or log files.
